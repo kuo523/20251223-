@@ -1,0 +1,6 @@
+train: datasets/train/images
+val: datasets/val/images
+
+nc: 1
+names:
+  0: aortic_valve

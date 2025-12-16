@@ -1,0 +1,16 @@
+# 忽略巨大的訓練產出 (9.8GB)
+runs/
+
+# 忽略資料集 (2.1GB + 1.9GB)
+datasets/
+training_image/
+
+# 忽略 Python 快取
+__pycache__/
+*.pyc
+
+# 視需求決定是否忽略以下 (建議也忽略)
+testing_image/
+training_label/
+output/
+
